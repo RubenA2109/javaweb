@@ -1,0 +1,80 @@
+
+/** uma classe **/
+.classXpto{}
+
+/**estilos por identificador de elemento 'unico'*/
+#idXpto{}
+
+/**limite da pagina template*/
+.limite-pagina{padding:0px !important; }
+
+/** localizacao do menu/navbar */
+#navbarNavAltMarckup{justify-content: flex-end !important; }
+.navbar-dark .navbar-nav .nav-link{
+    color: rgb(255, 255, 255) !important;
+    font-size: 14px !important;
+    padding: 15px 30px !important;
+}
+.carousel-caption{top: 10rem !important;}
+.carousel-h2-new{font-size: 5rem;}
+.carousel-p-new{font-size: 2rem;}
+
+.zonadecarroselimagens{background-color: #fff; padding-top: 50px; padding-bottom: 50px;}
+.zonablog{background-color: #ddd; padding-top: 50px; padding-bottom: 50px;}
+.newcard{background-color: transparent; border: 0px;}
+
+/** footer */
+.footer-link{color: #000; text-decoration: none; transition: all 0.2s ease;}
+.footer-link:hover{color: #333; font-weight: bold; text-decoration: underline;}
+
+.pais {
+      border: 1px solid #ccc;
+      padding: 10px;
+      box-shadow: 2px 2px 5px #999;
+      box-sizing: border-box;
+      text-align: center;
+    }
+.pais img {
+      max-width: 100%;
+      height: auto;
+      margin-bottom: 8px;
+    }
+
+/** Contactos */
+.form-contact {
+    background-color: #f8f9fa;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 20px;
+}
+.form-contact h3 {
+    font-weight: 700;
+    color: #0d6efd;
+    margin-bottom: 1.5rem;
+}
+.form-contact .form-control {
+    border-radius: 8px;
+    padding: 12px 15px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+.form-contact .form-control:focus {
+    border-color: #0d6efd;
+    box-shadow: 0 0 5px rgba(13, 110, 253, 0.5);
+}
+.form-contact button[type="submit"] {
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+.form-contact button[type="submit"]:hover {
+background-color: #0b5e 
+}
+.form-contact .mb-3 {
+    margin-bottom: 1.5rem !important;
+}
